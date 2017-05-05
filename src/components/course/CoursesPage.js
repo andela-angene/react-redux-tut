@@ -35,6 +35,17 @@ class CoursesPage extends React.Component {
         <h1>Courses</h1>
         {this.props.courses.map(this.courseRow)}
 
+        <input
+          type="text"
+          onChange={this.onTitleChange}
+          value={this.state.course.title}
+        />
+        <input
+          type="submit"
+          onClick={this.onClickSave}
+          value="Save"
+        />
+      </div>
     );
   }
 }
