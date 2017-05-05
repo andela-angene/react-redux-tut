@@ -9,7 +9,7 @@ class AboutPage extends React.Component {
         <p>This application uses React, Reduxx ....</p>
         <Link to="/">Home</Link>
       </div>
-    )
+    );
   }
 }
 
