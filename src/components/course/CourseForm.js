@@ -6,6 +6,7 @@ const CourseForm =
   ({ course, allAuthors, onSave, onChange, loading, errors }) => {
     return (
       <form>
+        <h1>Input Form</h1>
         <TextInput
           name="title"
           label="Title"
